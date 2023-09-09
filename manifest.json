@@ -1,0 +1,16 @@
+{
+  "name": "Photographe Nina Carducci",
+  "short_name": "Nina Carducci",
+  "description": "Découvrez le travail de Nina Carducci, photographe professionnelle. Parcourez sa galerie de photos et prenez contact pour réserver une séance photo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "assets/images/nina.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    }
+  ]
+}
