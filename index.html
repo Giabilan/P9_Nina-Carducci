@@ -1,18 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Photographe Nina Carducci</title>
+    <meta name="description" content="Découvrez le travail de Nina Carducci, photographe professionnelle. Parcourez sa galerie de photos et prenez contact pour réserver une séance photo.">
+
+    <link rel="icon" type="image/vnd.icon" href="assets/images/frame_nina_carducci.ico">
+    <meta name="robots" content="index, follow" />
+
+    <!-- Balises OpenGraph pour les réseaux sociaux -->
+    <meta property="og:title" content="Photographe Nina Carducci" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://giabilan.github.io/Photographe_Nina_Carducci/">
+    <meta property="og:image" content="assets/images/frame_of_nina_carducci.webp">
+    <meta property="og:description" content="Découvrez le travail de Nina Carducci, photographe professionnelle. Parcourez sa galerie de photos et prenez contact pour réserver une séance photo.">
+
+    <!-- Balises OpenGraph pour les Card Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Photographe Nina Carducci" />
+    <meta name="twitter:description" content="Découvrez le travail de Nina Carducci, photographe professionnelle. Parcourez sa galerie de photos et prenez contact pour réserver une séance photo.">
+    <meta name="twitter:image" content="./assets/images/frame_of_nina_carducci.webp">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Photographe Nina Carducci",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "postalCode": "33200",
+          "addressLocality": "Bordeaux"
+        },
+        "telephone": "05 56 67 78 89",
+        "openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+        "priceRange": "Prix variables en fonction des services",
+        "image": "../assets/images/frame_nina_carducci.webp",
+        "service": [
+          {
+            "@type": "Service",
+            "name": "Shooting photo",
+            "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
+            "offers": {
+              "@type": "Offer",
+              "price": "350€/demi journée",
+              "description": "Matériel, déplacement inclus",
+              "priceCurrency": "EUR",
+              "priceRange": "350-350"
+            }
+          },
+          {
+            "@type": "Service",
+            "name": "Retouches",
+            "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications",
+            "offers": {
+              "@type": "Offer",
+              "price": "50€/photo",
+              "description": "2 AR par photo",
+              "priceCurrency": "EUR",
+              "priceRange": "50-50"
+            }
+          },
+          {
+            "@type": "Service",
+            "name": "Album photos",
+            "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé",
+            "offers": {
+              "@type": "Offer",
+              "price": "400€ album A4",
+              "description": "30 pages recto/verso",
+              "priceCurrency": "EUR",
+              "priceRange": "400-400"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
 <body>
 <div class="top-header">
 	<h3 class="name">Nina Carducci</h3>
@@ -154,5 +229,16 @@
 		</div>
 	</div>
 </div>
+<!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- Javascript -->
+    <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
+    <script src="./assets/maugallery.js" defer></script>
+    <script src="./assets/scripts.js" defer></script>
 </body>
 </html>
