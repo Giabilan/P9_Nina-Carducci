@@ -7265,6 +7265,7 @@ textarea.form-control-lg {
 .my-4 {
   margin-top: 1.5rem !important;
   margin-bottom: 1.5rem !important;
+  justify-content: center;
 }
 
 .my-5 {
@@ -7459,7 +7460,6 @@ textarea.form-control-lg {
 }
 
 .py-3 {
-  padding-top: 1rem !important;
   padding-bottom: 1rem !important;
 }
 
