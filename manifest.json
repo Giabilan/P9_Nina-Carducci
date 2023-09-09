@@ -4,8 +4,6 @@
   "description": "Découvrez le travail de Nina Carducci, photographe professionnelle. Parcourez sa galerie de photos et prenez contact pour réserver une séance photo.",
   "start_url": "https://giabilan.github.io/Photographe_Nina_Carducci/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "assets/images/nina.webp",
